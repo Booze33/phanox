@@ -25,6 +25,6 @@ export default defineSchema({
     clerkId: v.string(),
     first_name: v.string(),
     last_name: v.string(),
-    username: v.string(),
+    username:  v.optional(v.string()),
   })
 })
