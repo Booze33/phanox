@@ -10,7 +10,7 @@ const NavBar = () => {
   const router = useRouter();
   const { signOut } = useClerk();
   return (
-    <section className="w-full px-4 h-120m-0 flex flex-row justify-between pt-4">
+    <section className="w-[100vw] px-6 h-120m-0 flex flex-row justify-between pt-4">
       <h1 className="text-slate-400 font-bold font-sans text-[20px]">PHANOX</h1>
       <div>
         <Button className="p-0 mx-2 bg-transparent border-none">
